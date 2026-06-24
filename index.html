@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>本源幣：重寫經濟的地基 ｜ 高海璐</title>
+<meta name="description" content="為什麼我們越來越拼命，日子卻沒有變好？房子、孩子、養老、危機——這些難題，根上也許是同一個問題。《本源幣：重寫經濟的地基》，一部獨立完成的經濟理論著作，全書免費下載。" />
+<meta property="og:title" content="本源幣：重寫經濟的地基" />
+<meta property="og:description" content="為什麼我們越來越拼命，日子卻沒有變好？這些壓在每個人身上的難題，根上也許是同一個問題。全書免費下載。" />
+<meta property="og:type" content="book" />
+<meta property="og:locale" content="zh_TW" />
+<style>
+  :root{
+    --bg:#0f1115;
+    --bg-soft:#161922;
+    --ink:#e8e6e0;
+    --ink-dim:#9a9892;
+    --ink-faint:#6c6a64;
+    --amber:#d99a2b;
+    --amber-bright:#f0b950;
+    --gray-old:#5a5d66;
+    --line:#262a33;
+    --danger:#b9863a;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    background:var(--bg);
+    color:var(--ink);
+    font-family:"Noto Serif CJK TC","Source Han Serif TC","Songti TC",Georgia,"Times New Roman",serif;
+    line-height:1.8;
+    -webkit-font-smoothing:antialiased;
+    text-rendering:optimizeLegibility;
+  }
+  .wrap{max-width:760px;margin:0 auto;padding:0 24px}
+
+  /* ---- hero ---- */
+  header{padding:88px 0 56px;border-bottom:1px solid var(--line)}
+  .eyebrow{
+    font-family:"Noto Sans CJK TC","PingFang TC","Microsoft JhengHei",system-ui,sans-serif;
+    font-size:13px;letter-spacing:.32em;color:var(--ink-faint);
+    text-transform:none;margin-bottom:28px;
+  }
+  h1{
+    font-size:clamp(34px,7vw,56px);
+    font-weight:700;line-height:1.18;letter-spacing:.01em;
+    margin-bottom:18px;
+  }
+  h1 .sub{display:block;font-size:.46em;font-weight:400;color:var(--ink-dim);margin-top:14px;letter-spacing:.04em}
+  .byline{
+    font-family:"Noto Sans CJK TC","PingFang TC","Microsoft JhengHei",system-ui,sans-serif;
+    font-size:15px;color:var(--ink-dim);margin-top:22px;letter-spacing:.04em;
+  }
+
+  /* ---- axis signature ---- */
+  .axis{margin:46px 0 8px;width:100%;height:130px;display:block}
+  .axis .zero{stroke:var(--ink-faint);stroke-width:1;stroke-dasharray:3 4}
+  .axis .curve{fill:none;stroke:var(--amber);stroke-width:2.5;stroke-linecap:round}
+  .axis .dot{fill:var(--amber-bright)}
+  .axis .lbl{fill:var(--ink-faint);font-family:"Noto Sans CJK TC","PingFang TC",sans-serif;font-size:11px;letter-spacing:.1em}
+  .axis-cap{
+    font-family:"Noto Sans CJK TC","PingFang TC","Microsoft JhengHei",system-ui,sans-serif;
+    font-size:13px;color:var(--ink-faint);text-align:center;letter-spacing:.06em;margin-bottom:8px;
+  }
+
+  /* ---- lede ---- */
+  section{padding:48px 0;border-bottom:1px solid var(--line)}
+  .lede p{font-size:18px;color:var(--ink);margin-bottom:20px}
+  .lede p.q{font-size:22px;color:var(--amber-bright);font-weight:600;line-height:1.5}
+  .lede p:last-child{margin-bottom:0}
+
+  /* ---- download ---- */
+  .dl{text-align:center;padding:56px 0}
+  .dl .meta{
+    font-family:"Noto Sans CJK TC","PingFang TC","Microsoft JhengHei",system-ui,sans-serif;
+    font-size:13px;color:var(--ink-faint);letter-spacing:.08em;margin-bottom:24px;
+  }
+  .btn{
+    display:inline-block;
+    font-family:"Noto Sans CJK TC","PingFang TC","Microsoft JhengHei",system-ui,sans-serif;
+    font-size:17px;font-weight:600;letter-spacing:.06em;
+    color:#1a140a;background:var(--amber);
+    padding:16px 40px;border-radius:2px;text-decoration:none;
+    transition:background .18s ease,transform .18s ease;
+  }
+  .btn:hover{background:var(--amber-bright);transform:translateY(-1px)}
+  .btn:focus-visible{outline:2px solid var(--amber-bright);outline-offset:3px}
+  .dl .note{
+    font-family:"Noto Sans CJK TC","PingFang TC","Microsoft JhengHei",system-ui,sans-serif;
+    font-size:13px;color:var(--ink-faint);margin-top:18px;
+  }
+
+  /* ---- safety ---- */
+  .safety{background:var(--bg-soft)}
+  .safety .wrap{padding-top:44px;padding-bottom:44px}
+  .safety h2{
+    font-family:"Noto Sans CJK TC","PingFang TC","Microsoft JhengHei",system-ui,sans-serif;
+    font-size:15px;font-weight:700;color:var(--danger);letter-spacing:.08em;margin-bottom:16px;
+    display:flex;align-items:center;gap:8px;
+  }
+  .safety p{font-family:"Noto Sans CJK TC","PingFang TC","Microsoft JhengHei",system-ui,sans-serif;
+    font-size:15px;color:var(--ink-dim);margin-bottom:14px;line-height:1.75}
+  .safety strong{color:var(--ink)}
+  .safety a{color:var(--amber-bright);text-decoration:none;border-bottom:1px solid rgba(240,185,80,.35)}
+  .safety a:hover{border-bottom-color:var(--amber-bright)}
+
+  /* ---- license / footer ---- */
+  footer{padding:44px 0 80px}
+  footer .lic{
+    font-family:"Noto Sans CJK TC","PingFang TC","Microsoft JhengHei",system-ui,sans-serif;
+    font-size:13.5px;color:var(--ink-faint);line-height:1.8;
+  }
+  footer .lic strong{color:var(--ink-dim)}
+  footer .contact{margin-top:20px;font-size:13.5px;color:var(--ink-faint);
+    font-family:"Noto Sans CJK TC","PingFang TC",sans-serif}
+  footer a{color:var(--ink-dim);text-decoration:none;border-bottom:1px solid var(--line)}
+  footer a:hover{color:var(--ink)}
+
+  @media (prefers-reduced-motion:reduce){
+    .btn{transition:none}
+  }
+  @media (max-width:520px){
+    header{padding:60px 0 40px}
+    .lede p{font-size:17px}
+    .lede p.q{font-size:20px}
+  }
+</style>
+</head>
+<body>
+
+  <header>
+    <div class="wrap">
+      <div class="eyebrow">方舟計劃 · 經濟理論</div>
+      <h1>本源幣
+        <span class="sub">重寫經濟的地基</span>
+      </h1>
+      <div class="byline">高海璐 著 ｜ 全書十四章 · 免費閱讀與傳播</div>
+
+      <!-- signature: a value line that dips below zero, then returns to zero -->
+      <svg class="axis" viewBox="0 0 700 130" preserveAspectRatio="xMidYMid meet" aria-hidden="true">
+        <line class="zero" x1="20" y1="55" x2="680" y2="55"/>
+        <text class="lbl" x="24" y="48">0</text>
+        <path class="curve" d="M20,55 C140,55 150,118 280,116 C420,114 430,55 560,40 C620,33 660,55 680,55"/>
+        <circle class="dot" cx="20" cy="55" r="4"/>
+        <circle class="dot" cx="680" cy="55" r="4"/>
+      </svg>
+      <div class="axis-cap">帳戶可以沉入負數，但一生終將歸零。</div>
+    </div>
+  </header>
+
+  <section class="lede">
+    <div class="wrap">
+      <p class="q">為什麼我們越來越拼命，日子卻沒有變好？</p>
+      <p>房子、孩子、養老、那場說來就來的危機——這些壓在每個人身上的難題，看似各不相同，根上也許是同一個問題。</p>
+      <p>幾百年來，有一條假設被所有人繼承，卻從沒有人認真質疑過：貨幣，必須為正。這本書從這一個念頭出發，推演出一套允許帳戶為負、而全社會總帳恆為零的記帳體系——本源幣。它不止步於一個口號：從生產、勞動、環境、公共服務、人口，到創新、信用、治理與文明定位，全書十四章，幾乎不用一個公式，只用邏輯和日常的語言，講給每一個普通人聽。</p>
+    </div>
+  </section>
+
+  <section class="dl">
+    <div class="wrap">
+      <div class="meta">EPUB 格式 · 可用手機、平板、電子書閱讀器開啟</div>
+      <a class="btn" href="本源幣_重寫經濟的地基_繁體精校版.epub" download>下載本書（EPUB）</a>
+      <div class="note">這本書是免費的，也歡迎你自由地轉發給任何人。</div>
+    </div>
+  </section>
+
+  <section class="safety">
+    <div class="wrap">
+      <h2>⚠ 關於支持的安全提示</h2>
+      <p>這本書是免費的，也歡迎你自由地傳播它。但正因為它會被不斷轉發，書裡的收款方式，有可能在某一次轉發中，被別有用心的人偷偷換成他自己的。</p>
+      <p>所以，在你支持我之前，請務必以我<strong>唯一的官方頻道</strong>為準——</p>
+      <p>YouTube：<a href="https://www.youtube.com/@gaohailu" target="_blank" rel="noopener">高海璐 ｜ 方舟計劃（@gaohailu）</a></p>
+      <p>請在該頻道的簡介裡，核對最新、最準確的收款方式，以及加密貨幣（USDT）的完整地址。<strong>任何與官方頻道不一致的收款碼或地址，都不是我的，請不要付款。</strong></p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap">
+      <p class="lic">
+        <strong>授權條款</strong><br/>
+        本書採用 知識共享 署名—非商業性使用—禁止演繹 4.0 國際許可協議（CC BY-NC-ND 4.0）。<br/>
+        歡迎以非商業目的轉載、引用、節錄與傳播，但須完整註明作者（高海璐）與書名《本源幣：重寫經濟的地基》，並保持內容不被刪改、歪曲。未經作者書面許可，不得刪改本書內容，亦不得用於任何商業用途。
+      </p>
+      <p class="contact">聯絡作者：<a href="mailto:gaohailu0930@gmail.com">gaohailu0930@gmail.com</a></p>
+    </div>
+  </footer>
+
+</body>
+</html>
